@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.picker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".PictureSelectorActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PicturePreviewActivity"
+            android:screenOrientation="portrait" />
+
+
+    </application>
+
+</manifest>

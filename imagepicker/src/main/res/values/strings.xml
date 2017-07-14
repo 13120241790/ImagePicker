@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">imagepicker</string>
+    <!-- PictureSelectorActivity -->
+    <string name="rc_picsel_toolbar">图片</string>
+    <string name="rc_picsel_toolbar_send">发送</string>
+    <string name="rc_picsel_toolbar_send_num">发送(%d/9)</string>
+    <string name="rc_picsel_pictype">图片</string>
+    <string name="rc_picsel_toolbar_preview">预览</string>
+    <string name="rc_picsel_toolbar_preview_num">预览(%d)</string>
+    <string name="rc_picsel_selected_max">您最多只能选择9张图片</string>
+    <string name="rc_picsel_take_picture">拍摄照片</string>
+    <string name="rc_picsel_catalog_allpic">所有图片</string>
+    <string name="rc_picsel_catalog_number">%d张</string>
+
+    <!-- PicturePreviewActivity -->
+    <string name="rc_picprev_origin">原图</string>
+    <string name="rc_picprev_origin_size">原图(%s)</string>
+    <string name="rc_picprev_select">选择</string>
+
+    <string name="rc_permission_grant_needed">您需要在设置中打开权限</string>
+
+    <string name="rc_android.permission.CAMERA">相机</string>
+    <string name="rc_android.permission.ACCESS_FINE_LOCATION">位置信息</string>
+    <string name="rc_android.permission.ACCESS_COARSE_LOCATION">位置信息</string>
+    <string name="rc_android.permission.RECORD_AUDIO">麦克风</string>
+    <string name="rc_android.permission.READ_EXTERNAL_STORAGE">存储空间</string>
+    <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">存储空间</string>
+
+    <string name="rc_confirm">确认</string>
+    <string name="rc_cancel">取消</string>
+</resources>
